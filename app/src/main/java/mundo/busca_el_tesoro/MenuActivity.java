@@ -80,20 +80,22 @@ public class MenuActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View v) {
                     String temp = ""+tesoro.getNumero();
-                    if (turno%2 == 0){
-                        boton.setTextColor(Color.BLUE);
-                    }else{
-                        boton.setTextColor(Color.RED);
+                        if (turno % 2 == 0) {
+                            boton.setTextColor(Color.BLUE);
+                            boton.setEnabled(false);
+                        } else {
+                            boton.setTextColor(Color.RED);
+                            boton.setEnabled(false);
+                        }
+                        if (boton.getText().toString().equals(temp)) {
+                            Intent intento = new Intent(getApplicationContext(), TesoroActivity.class);
+                            startActivity(intento);
+                        } else {
+                            Intent intento = new Intent(getApplicationContext(), PreguntaActivity.class);
+                            startActivity(intento);
+                        }
+                        turno++;
                     }
-                    if(boton.getText().toString().equals(temp)){
-                        Intent intento = new Intent(getApplicationContext(),TesoroActivity.class);
-                        startActivity(intento);
-                    }else{
-                        Intent intento = new Intent(getApplicationContext(),PreguntaActivity.class);
-                        startActivity(intento);
-                    }
-                    turno++;
-                }
             });
 
         }
