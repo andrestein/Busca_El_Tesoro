@@ -158,7 +158,7 @@ public class PreguntaActivity extends AppCompatActivity {
         for(int i=0; i<MenuActivity.numPregunta.length;i++){
             if(MenuActivity.numPregunta[i] == b){
                 Random r = new Random();
-                b=r.nextInt(23);
+                b=r.nextInt(40);
                 numeroAleatorio(b);
             }else{
                 MenuActivity.numPregunta[i]=b;
