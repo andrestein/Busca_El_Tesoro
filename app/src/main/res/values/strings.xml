@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Busca_El_Tesoro</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">Busca el tesoro</string>
+    <string name="title_activity_menu">Busca el tesoro</string>
+    <string name="title_activity_tesoro">TesoroActivity</string>
+    <string name="title_activity_pregunta">PreguntaActivity</string>
+</resources>
