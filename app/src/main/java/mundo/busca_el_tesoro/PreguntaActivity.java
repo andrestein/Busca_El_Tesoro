@@ -46,6 +46,23 @@ public class PreguntaActivity extends AppCompatActivity {
     private Pregunta pregunta21;
     private Pregunta pregunta22;
     private Pregunta pregunta23;
+    private Pregunta pregunta24;
+    private Pregunta pregunta25;
+    private Pregunta pregunta26;
+    private Pregunta pregunta27;
+    private Pregunta pregunta28;
+    private Pregunta pregunta29;
+    private Pregunta pregunta30;
+    private Pregunta pregunta31;
+    private Pregunta pregunta32;
+    private Pregunta pregunta33;
+    private Pregunta pregunta34;
+    private Pregunta pregunta35;
+    private Pregunta pregunta36;
+    private Pregunta pregunta37;
+    private Pregunta pregunta38;
+    private Pregunta pregunta39;
+    private Pregunta pregunta40;
     private Pregunta preguntaActual;
 
 
@@ -153,7 +170,7 @@ public class PreguntaActivity extends AppCompatActivity {
     // Muestra la pregunta elegida aleatoriamente
     public void mostrarPregunta(){
         Random r = new Random();
-        int b=r.nextInt(23);
+        int b=r.nextInt(33);
         numeroAleatorio(b);
         for (Pregunta pregunta:preguntas
              ) {
@@ -187,7 +204,7 @@ public class PreguntaActivity extends AppCompatActivity {
         preguntas.add(pregunta13 = new Pregunta(13,"¿ Que le sucede a la energia ?","Se consume","Se transforma","Se destruye","Explota","Se transforma",1));
         preguntas.add(pregunta14 = new Pregunta(14,"¿ Como muere don Quijote ?","Se cae del caballo cuando acomete al molino que confunde con un gigante","En un enfrentamiento con bandoleros","En la cama","en la guerra","En la cama",5));
         preguntas.add(pregunta15 = new Pregunta(15,"¿ La china es un regimen ?","Comunista","Maoísta","Capitalista","Socialista","Comunista",5));
-        preguntas.add(pregunta16 = new Pregunta(16,"¿ Cual de los siguientes no es un modo verbal ?","El indicativo","El subjuntivo","El imperfecto","Ninguna de las anteriores","El Imperfecto",3));
+        preguntas.add(pregunta16 = new Pregunta(16,"¿ Cual de los siguientes no es un modo verbal ?","El indicativo","El subjuntivo","El Imperfecto","Ninguna de las anteriores","El Imperfecto",3));
         preguntas.add(pregunta17 = new Pregunta(17,"¿ De cuantos vertices se trata el teorema de Pitagoras ?","De cuatro","De tres","De cinco","De dos","De tres",1));
         preguntas.add(pregunta18 = new Pregunta(18,"¿ A que edificio trepó King Kong ?","La casa blanca","El empire state","La torre eiffel","La alpujarra","El empire state",3));
         preguntas.add(pregunta19 = new Pregunta(19,"¿ Que empresario cuenta la historia de la pelicula La red social ?","Bill Gates","Mark Zuckerberg","Steve Jobs","Donal Trump","Mark Zuckerberg",5));
@@ -195,6 +212,23 @@ public class PreguntaActivity extends AppCompatActivity {
         preguntas.add(pregunta21 = new Pregunta(21,"¿ De que material es la informacion genetica del ADN ?","Péptidos","Nucleotidos","Proteinas","Vitaminas","Nucleotidos",4));
         preguntas.add(pregunta22 = new Pregunta(22,"¿ Cual es el combustible utilizado en la mayoria de centrales nucleares ?","Uranio","Plutonio","Helio","Hierro","Uranio",5));
         preguntas.add(pregunta23 = new Pregunta(23,"¿ Que se coloca entre dos numeros de una direccion de IP ?","Puntos","Doble barra","Guiones","Slash","Puntos",4));
+        preguntas.add(pregunta24 = new Pregunta(24,"¿ Con que acontesimiento comienza la Edad Media ?","Caida del imperio romano","Caida del imperio bizantino","Las guerras carlistas","Las Guerras púnicas","Caida del imperio romano",4));
+        preguntas.add(pregunta25 = new Pregunta(25,"¿ Quién escribió \"Es mejor ser rey de tu silencio que esclavo de tus palabras\" ?","Ciceron","Shakespeare","Aristoteles","Nietzsche","Shakespeare",5));
+        preguntas.add(pregunta26 = new Pregunta(26,"¿ Cual es la capital de alemania ?","Baku","Viena","Berlin","Sofia","Berlin",1));
+        preguntas.add(pregunta27 = new Pregunta(27,"¿ Qué países se enfrentaron en la guerra de los Siete Años (1756-1763) ?","Francia y Alemania","Reino Unido y Francia","Reino Unido e Italia","Alemania y Holanda","Reino Unido y Francia",3));
+        preguntas.add(pregunta28 = new Pregunta(28,"¿ Cual es la capital de Ottawa ?","Canada","Estados Unidos","Cuba","Mexico","Canada",2));
+        preguntas.add(pregunta29 = new Pregunta(29,"¿ El planeta tierra esta situado entre ?","Venus y Marte","Marte y Jupiter","Marte y Mercurio","Mercurio y Venus","Venus y Marte",4));
+        preguntas.add(pregunta30 = new Pregunta(30,"¿ Cuál de estos inventos se creó primero?","Dinamita","Electricidad","Bicicleta","Bombilla","Dinamita",3));
+        preguntas.add(pregunta31 = new Pregunta(31,"¿ Cuál de estos no es un color primario ?","Amarillo","Naranja","Azul","Rojo","Naranja",4));
+        preguntas.add(pregunta32 = new Pregunta(32,"¿ Cual es la capital de Dinamarca ?","Copenhague","Helsinki","Estocolmo","Mexico","Copenhague",5));
+        preguntas.add(pregunta33 = new Pregunta(33,"¿ Que pais no posee armas nucleares ?","India","España","Francia","Estados Unidos","España",5));
+        preguntas.add(pregunta34 = new Pregunta(34,"¿ Que equipo gano el mundial de futbol el 2006 en Alemania? ","España","Italia","Brasil","Argentina","Italia",3));
+        preguntas.add(pregunta35 = new Pregunta(35,"¿ Cual es la ciudad mas poblada del mundo ?","Buenos Aires","Nueva York","Tokio","Paises Bajos","Tokio",2));
+        preguntas.add(pregunta36 = new Pregunta(36,"¿ Cuantos años tiene un lustro ?","2","3","4","5","5",2));
+        preguntas.add(pregunta37 = new Pregunta(37,"¿ Cual es la ultima letra del alfabeto griego ?","Omega","Alpha","Zeta","Pi","Omega",3));
+        preguntas.add(pregunta38 = new Pregunta(38,"¿ Cual Reptil cuya piel cambia de color ?","Cobra","Iguana","Camaleon","Cocodrilo","Camaleon",4));
+        preguntas.add(pregunta39 = new Pregunta(39,"¿ Que organo del cuerpo produce la bilis ?","Higado","Pancreas","Riñon","Corazon","Higado",5));
+        preguntas.add(pregunta40 = new Pregunta(40," Es la bebida alcohólica más importante de Japón, destilada del arroz ","Umeshu","Sake","Awamori","Cafe","Sake",5));
 
         lbPregunta = (TextView)findViewById(R.id.lbPregunta);
         rBtnOpcion1 = (RadioButton)findViewById(R.id.rBtnOpcion1);
